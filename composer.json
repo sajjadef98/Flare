@@ -1,5 +1,5 @@
 {
-   "name": "flare-framework/flare",
+    "name": "flare-framework/flare",
     "type": "flare-framework",
     "description": "flare-Framework",
     "keywords": ["flare-Framework"],
@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "flare-framework/flare":"1.*",
         "vlucas/phpdotenv": "^5.3",
         "tracy/tracy": "^2.8",
         "izniburak/router": "^2.3",
@@ -21,6 +22,12 @@
         "league/plates": "^3.4",
         "phpmailer/phpmailer": "^6.5",
         "verot/class.upload.php": "^2.1"
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/sajjadef98/Flare"
     }
+]
 
 }

@@ -4,7 +4,8 @@
     "description": "flare-Framework",
     "keywords": ["flare-Framework"],
     "homepage": "https://github.com/sajjadef98/Flare",
-    "minimum-stability":"dev",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "license": "MIT",
     "authors": [
         {
@@ -14,6 +15,7 @@
         }
     ],
     "require": {
+        "flare-framework/flare": "1.*",
         "vlucas/phpdotenv": "^5.3",
         "tracy/tracy": "^2.8",
         "izniburak/router": "^2.3",

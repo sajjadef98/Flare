@@ -15,7 +15,6 @@
         }
     ],
     "require": {
-        "flare-framework/flare": "dev-master@dev",
         "vlucas/phpdotenv": "^5.3",
         "tracy/tracy": "^2.8",
         "izniburak/router": "^2.3",

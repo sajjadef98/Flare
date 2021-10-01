@@ -16,23 +16,13 @@ This means that you should configure your web server to "point" to your project'
 not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
 framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
 
 ## Server Requirements
 
 PHP version 8 or higher is required, with the following extensions installed: 
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
+- [libcurl](http://php.net/manual/en/curl.requirements.php) 
 
 - json (enabled by default - don't turn it off)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)

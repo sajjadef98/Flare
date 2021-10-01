@@ -1,4 +1,17 @@
 {
+    "name": "organization/flare-Framework",
+    "type": "flare-Framework",
+    "description": "flare-Framework",
+    "keywords": ["flare-Framework"],
+    "homepage": "https://github.com/sajjadef98/Flare",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sajjad eftekhari",
+            "homepage": "https://manbaenab.ir/profile/sajjad",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "vlucas/phpdotenv": "^5.3",
         "tracy/tracy": "^2.8",
@@ -9,4 +22,5 @@
         "phpmailer/phpmailer": "^6.5",
         "verot/class.upload.php": "^2.1"
     }
+
 }

@@ -5,7 +5,6 @@
     "keywords": ["flare-Framework"],
     "homepage": "https://github.com/sajjadef98/Flare",
     "minimum-stability": "dev",
-    "prefer-stable" : true,
     "license": "MIT",
     "authors": [
         {

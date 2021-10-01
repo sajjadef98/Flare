@@ -36,9 +36,11 @@ https://github.com/izniburak/php-router/wiki
 ### for $db and Model 
 ###  https://github.com/ThingEngineer/PHP-MySQLi-Database-Class
 ### https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/blob/master/dbObject.md
+### for View http://platesphp.com/
 ### and  
 ### for session https://odan.github.io/session/v5/
 ### for email https://github.com/PHPMailer/PHPMailer
 ### for validation  https://respect-validation.readthedocs.io/en/latest/
 ### for upload https://github.com/verot/class.upload.php
 ### for debug https://tracy.nette.org/en/guide
+

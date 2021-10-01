@@ -28,3 +28,17 @@ PHP version 8 or higher is required, with the following extensions installed:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+--------------------------------------------- Flare Framework ---------------------------------
+# Flare built with a number of powerful and fast packages with other important features 
+### for env https://github.com/vlucas/phpdotenv
+ ### for  Router and Controllers and Middlewares.i use https://github.com/izniburak/php-router
+https://github.com/izniburak/php-router/wiki
+### for $db and Model 
+###  https://github.com/ThingEngineer/PHP-MySQLi-Database-Class
+### https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/blob/master/dbObject.md
+### and  
+### for session https://odan.github.io/session/v5/
+### for email https://github.com/PHPMailer/PHPMailer
+### for validation  https://respect-validation.readthedocs.io/en/latest/
+### for upload https://github.com/verot/class.upload.php
+### for debug https://tracy.nette.org/en/guide

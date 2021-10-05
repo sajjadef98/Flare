@@ -25,10 +25,10 @@
         "verot/class.upload.php": "^2.1"
     },
     "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/sajjadef98/Flare"
-    }
-]
+        {
+            "type": "vcs",
+            "url": "https://github.com/sajjadef98/Flare"
+        }
+    ]
 
 }

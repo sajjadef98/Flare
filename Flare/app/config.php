@@ -27,7 +27,7 @@ dbObject::autoload(CONFIG."../Models");
 
 if (isset($_ENV['DB_HOST'])){
     if (isset( $_ENV['DB_PREFIX'])){$_FE_prefix =$_ENV['DB_PREFIX'];}else{$_FE_prefix="";}
-    $DB= new MysqliDb(Array (
+    $db= new MysqliDb(Array (
         'host' => $_ENV['DB_HOST'],
         'username' => $_ENV['DB_USER'],
         'password' => $_ENV['DB_PASS'],
@@ -36,7 +36,5 @@ if (isset($_ENV['DB_HOST'])){
         'prefix' =>  $_FE_prefix ,
         'charset' => 'utf8'));
 }
-
-
 
 require_once 'Router.php' ;

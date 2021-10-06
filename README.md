@@ -24,8 +24,8 @@ PHP version 8 or higher is required, with the following extensions installed:
 
 ### --------------------------------------------- Flare Framework ---------------------------------
 ## How to install
-you can use composer or download from https://github.com/sajjadef98/Flare/releases
-composer create-project flare-framework/flare mysite
+### you can use composer or download from https://github.com/sajjadef98/Flare/releases
+### composer create-project flare-framework/flare mysite
 # Flare built with a number of powerful and fast packages with other important features 
 ### for env https://github.com/vlucas/phpdotenv
  ### for  Router and Controllers and Middlewares.i use https://github.com/izniburak/php-router

@@ -21,14 +21,11 @@ framework are exposed.
 
 PHP version 8 or higher is required, with the following extensions installed: 
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) 
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
---------------------------------------------- Flare Framework ---------------------------------
+### --------------------------------------------- Flare Framework ---------------------------------
+## How to install
+you can use composer or download from https://github.com/sajjadef98/Flare/releases
+composer create-project flare-framework/flare mysite
 # Flare built with a number of powerful and fast packages with other important features 
 ### for env https://github.com/vlucas/phpdotenv
  ### for  Router and Controllers and Middlewares.i use https://github.com/izniburak/php-router

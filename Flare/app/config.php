@@ -20,11 +20,7 @@ if (isset($_ENV['Dev_set'])) {
     }
 }
 require_once (CONFIG.'../Global_Functions/Flare.php') ;
-
 spl_autoload_register('autoLoader');
-spl_autoload_register('lautoLoader');
-dbObject::autoload(CONFIG."../Models");
-
 if (isset($_ENV['DB_HOST'])){
     if (isset( $_ENV['DB_PREFIX'])){$_FE_prefix =$_ENV['DB_PREFIX'];}else{$_FE_prefix="";}
     $db= new MysqliDb(Array (
@@ -36,5 +32,6 @@ if (isset($_ENV['DB_HOST'])){
         'prefix' =>  $_FE_prefix ,
         'charset' => 'utf8'));
 }
-
+dbObject::autoload(CONFIG."../Models");
+spl_autoload_register('lautoLoader');
 require_once 'Router.php' ;

@@ -41,14 +41,14 @@ class EFTEKHARI extends Controller
 
         //        $session->start();
         //        $PHPCAP =new Captcha() ;
-                //  debug($ff);
+                //  debug($session);
 
 
 
 
 
 
-
+        $efdf/0 ;
 
 
         $data = ['welcome' => 'Flare Framework ' ] ;
